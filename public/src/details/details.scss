@@ -1,0 +1,64 @@
+@import "../../styles/global.scss";
+
+.details {
+   position: relative;
+   background: $white;
+   width: calc(100% - 32px);
+   margin: auto;
+   max-width: 800px;
+
+   .content {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+   }
+
+   .row {
+      flex: 1;
+      padding: 16px;
+   }
+
+   .product {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .condition-qty {
+         font-size: 16px;
+         text-transform: capitalize;
+      }
+
+      .title {
+         margin-top: 0px;
+         font-size: 24px;
+      }
+
+      .price {
+         font-size: 46px;
+         margin: 32px 0;
+      }
+
+      .buy {
+         width: 100%;
+         font-size: 14px;
+         background-color: $complementary;
+      }
+
+      .picture {
+         height: auto;
+         object-fit: cover;
+         padding: 0;
+         min-height: 300px;
+         min-width: 300px;
+         max-height: 100%;
+         max-width: 100%;
+      }
+   }
+
+   .description {
+      .row {
+         flex: 1;
+         padding: 16px;
+      }
+   }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es5"],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "compileOnSave": true,
+  "include": [
+    "client/*"
+  ],
+  "parcelTsPluginOptions": {
+    "transpileOnly": false
+  }
+}

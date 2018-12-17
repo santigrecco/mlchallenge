@@ -1,0 +1,4 @@
+// Define 1 unit = 4px
+$u: 4px;
+$header-height: $u * 12;
+$body-min-height: calc(100vh - #{$header-height});

@@ -1,0 +1,26 @@
+{
+   "defaultSeverity": "error",
+   "extends": [
+      "tslint:recommended",
+      "tslint-config-standard",
+      "tslint-react",
+      "tslint-config-prettier"
+   ],
+   "rules": {
+      "ordered-imports": true,
+      "whitespace": true,
+      "quotemark": [true, "single"],
+      "no-duplicate-super": true,
+      "indent": true,
+      "triple-equals": true,
+      "comment-format": true,
+      "only-arrow-functions": true,
+      "no-any": true,
+   },
+   "linterOptions": {
+      "exclude": [
+         "node_modules",
+         "dist"
+      ]
+   }
+}

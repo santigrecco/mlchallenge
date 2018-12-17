@@ -1,0 +1,37 @@
+@import "../../styles/global.scss";
+
+.breadcrumb {
+   font-size: 14px;
+   border-radius: 0 !important;
+   background: $whitesmoke !important;
+   margin: 0px !important;
+   max-width: 800px;
+   align-items: flex-start;
+   width: 100%;
+
+   .route {
+      color: $soft-grey;
+      margin-left: 16px;
+      cursor: pointer;
+      text-decoration: none;
+
+      &:hover {
+         color: $complementary;
+      }
+
+      &::after {
+         content: '>';
+         margin-left: 16px;
+         color: $soft-grey;
+      }
+
+      &:first-child {
+         margin-left: 0;
+      }
+
+      &:last-child::after {
+         content: none;
+
+      }
+   }
+}

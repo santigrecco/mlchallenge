@@ -1,0 +1,45 @@
+@import '../../styles/global.scss';
+
+.header {
+   height: $header-height;
+   background: $primary;
+   // min-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   .content {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      max-width: 800px;
+      width: 100%;
+   }
+
+   .logo {
+      margin-right: 16px;
+      height: 34px;
+      width: 48px;
+      cursor: pointer;
+   }
+
+   .input-group {
+      margin-bottom: 0 !important;
+      flex: 1;
+
+      .search-input {
+         flex: 1;
+         font-size: 12px;
+         padding: 4px;
+      }
+
+      .input-group-append {
+         cursor: pointer;
+      }
+
+      .search-image {
+         widows: 14px;
+         height: 14px;
+      }
+   }
+}
