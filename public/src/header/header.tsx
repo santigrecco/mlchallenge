@@ -46,7 +46,7 @@ export class Header extends Component<{ match: any; location: any }> {
                   onClick={this.goToHome}
                />
 
-               <div className="input-group input-group-sm mb-3">
+               <div className="input-group mb-3">
                   <input
                      id="search-input"
                      type="text"

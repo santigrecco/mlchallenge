@@ -4,10 +4,12 @@
    "private": true,
    "author": "Santiago Grecco",
    "scripts": {
-      "client": "cd public && yarn start",
-      "app": "cd public && yarn start",
+      "client": "cd public && npm run start",
+      "app": "cd public && npm run start",
       "server": "nodemon server.js",
-      "start": "run-p server app"
+      "start": "run-p server app",
+      "build": "cd public && npm run build",
+      "build-server": "npm run build && npm run server"
    },
    "dependencies": {
       "axios": "^0.18.0",
